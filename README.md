@@ -4,10 +4,15 @@ Enable and Start elasticsearch (Linux)
 1) systemctl enable elasticsearch
 2) systemctl start elasticsearch
 
-Elastic search should run on localhost:9200
-
-Now start the nodejs server by executing the following command: 
+Elastic search should run on localhost:9200 (Optional)
+--------------------------------------------------------------------------------------------
+To test the connectivity use the following command:
+cd ./modules
+node .ping.js
+---------------------------------------------------------------------------------------------
+To start the nodejs server by executing the following command: 
 node server.js
+---------------------------------------------------------------------------------------------
 
 API routes:
 
